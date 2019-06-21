@@ -1,0 +1,100 @@
+
+
+// Core
+
+@import "design/custom/functions";
+@import "design/bootstrap/functions";
+
+@import "design/custom/variables";
+@import "design/bootstrap/variables";
+
+@import "design/custom/mixins";
+@import "design/bootstrap/mixins";
+
+// Bootstrap components
+
+@import "design/bootstrap/root";
+@import "design/bootstrap/reboot";
+@import "design/bootstrap/type";
+@import "design/bootstrap/images";
+@import "design/bootstrap/code";
+@import "design/bootstrap/grid";
+@import "design/bootstrap/tables";
+@import "design/bootstrap/forms";
+@import "design/bootstrap/buttons";
+@import "design/bootstrap/transitions";
+@import "design/bootstrap/dropdown";
+@import "design/bootstrap/button-group";
+@import "design/bootstrap/input-group";
+@import "design/bootstrap/custom-forms";
+@import "design/bootstrap/nav";
+@import "design/bootstrap/navbar";
+@import "design/bootstrap/card";
+@import "design/bootstrap/breadcrumb";
+@import "design/bootstrap/pagination";
+@import "design/bootstrap/badge";
+@import "design/bootstrap/jumbotron";
+@import "design/bootstrap/alert";
+@import "design/bootstrap/progress";
+@import "design/bootstrap/media";
+@import "design/bootstrap/list-group";
+@import "design/bootstrap/close";
+@import "design/bootstrap/modal";
+@import "design/bootstrap/tooltip";
+@import "design/bootstrap/popover";
+@import "design/bootstrap/carousel";
+@import "design/bootstrap/utilities";
+@import "design/bootstrap/print";
+
+// Custom components
+
+@import "design/custom/alerts.scss";
+@import "design/custom/buttons.scss";
+@import "design/custom/dropdown.scss";
+@import "design/custom/footer.scss";
+@import "design/custom/forms.scss";
+@import "design/custom/images.scss";
+@import "design/custom/modal.scss";
+@import "design/custom/navbar.scss";
+@import "design/custom/type.scss";
+@import "design/custom/icons.scss";
+@import "design/custom/tables";
+@import "design/custom/checkboxes-radio";
+@import "design/custom/fixed-plugin";
+@import "design/custom/pagination.scss";
+@import "design/custom/misc.scss";
+@import "design/custom/rtl.scss";
+@import "design/custom/input-group.scss";
+@import "design/custom/example-pages.scss";
+@import "design/custom/progress.scss";
+@import "design/custom/badge.scss";
+@import "design/custom/pills.scss";
+@import "design/custom/tabs.scss";
+@import "design/custom/info-areas.scss";
+
+// Sections
+@import "design/custom/sections.scss";
+
+// Vendor / Plugins
+
+@import "design/custom/vendor/plugin-perfect-scrollbar.scss";
+@import "design/custom/vendor/plugin-animate-bootstrap-notify.scss";
+@import "design/custom/vendor/plugin-bootstrap-switch.scss";
+@import "design/custom/vendor/plugin-nouislider.scss";
+@import "design/custom/vendor/plugin-datetimepicker.scss";
+
+// Cards
+
+@import "design/custom/card";
+@import "design/custom/cards/card-chart";
+@import "design/custom/cards/card-map";
+@import "design/custom/cards/card-user";
+@import "design/custom/cards/card-task";
+@import "design/custom/cards/card-plain";
+@import "design/custom/cards/card-register";
+@import "design/custom/cards/card-stats";
+@import "design/custom/cards/card-chart";
+
+// React Differences
+
+@import "design/react/react-differences";
