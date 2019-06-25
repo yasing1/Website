@@ -12,6 +12,7 @@ import Homepage from "./components/Homepage";
 import Logistic from "./components/Logistic";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import TestPage from "./components/TestPage";
 
 ReactDOM.render(
   <BrowserRouter>
@@ -26,6 +27,11 @@ ReactDOM.render(
         path="/hakkinda"
         render={props => <About {...props} />}
       />
+            <Route
+        path="/TestPage"
+        render={props => <TestPage {...props} />}
+      />
+
       <Route
         path="/lojistik"
         render={props => <Logistic {...props} />}

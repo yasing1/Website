@@ -44,9 +44,8 @@ export default class Logistic extends Component {
         let { leftIcon, rightIcon } = this.state;
         return (
             <div>
-                <Header />
-                <br/><br/><br/>
-                <Col span={12} style={{ paddingTop: "20px" }}>
+              <Header/>
+                <Col span={0} style={{ paddingTop: "0px", height: '100%' , width: "100%", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover', position: 'fixed'}}>
             <RBCarousel
               animation={true}
               autoplay={this.state.autoplay}
@@ -57,28 +56,28 @@ export default class Logistic extends Component {
               ref={r => (this.slider = r)}
               version={4}
             >
-                <div style={{ height: 400, width: "100%" }}>
+                <div style={{ height: '100%' , width: "100%", backgroundPosition: 'center', backgroundRepeat: 'no-repeat', backgroundSize: 'cover'}}>
                 <img
                   style={{ width: "100%", height: "100%" }}
                   src={Almanya}
                 />
                 <div className="carousel-caption">Almanya</div>
               </div>
-              <div style={{ height: 400 }}>
+              <div style={{ height: '100%' }}>
                 <img
                   style={{ width: "100%", height: "100%" }}
                   src={Italya}
                 />
                 <div className="carousel-caption">İtalya</div>
               </div>
-              <div style={{ height: 400 }}>
+              <div style={{ height: '100%' }}>
                 <img
                   style={{ width: "100%", height: "100%" }}
                   src={Fransa}
                 />
                 <div className="carousel-caption">Fransa</div>
               </div>
-              <div style={{ height: 400 }}>
+              <div style={{ height: '100%' }}>
                 <img
                   style={{ width: "100%", height: "100%" }}
                   src={Ispanya}
@@ -87,6 +86,7 @@ export default class Logistic extends Component {
               </div>
               </RBCarousel>
           </Col>
+                <p style ={{ fontSize: '20pt', position: 'fixed', left: '10%', top: '50%', color: '#2F2F2F'}}> Avrupa, Ortadoğu ve Balkanlar’a giden yolun başlangıcı… </p>
             </div>
         )
     }

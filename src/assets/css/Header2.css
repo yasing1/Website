@@ -1,0 +1,128 @@
+.Items
+{
+    height: 52px;
+    list-style: none;
+    display: flex;
+    background-color: #c7c7c7;
+    position: relative;
+    top: 175px;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+}
+
+.Items li
+{
+    color: #101010;
+    color: '#000';
+    position: relative;
+    font-size: 15pt;
+    z-index: 2;
+    padding: 0px 0px;
+    top: 0px;
+}
+
+.DropDownContent
+{
+    display: none;
+    position: absolute;
+    background-color: #cacaca;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    top: 52px;
+    left: -5px;
+}
+
+.DropDownContent a 
+{
+    float: none;
+    padding: 10px 30px;
+    text-decoration: none;
+    display: block;
+    font-size: 11pt !important;
+    text-align: left;
+  }
+
+.DropDownMenu:hover .DropDownContent
+{
+    display: block;
+}
+
+
+  
+  /* Links inside the navbar */
+  .Items a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: inherit !important;
+  }
+  
+  /* The dropdown container */
+  .DropDownMenu {
+    float: left;
+  }
+  
+  /* Dropdown button */
+  .DropDownMenu .DropDownButton {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+
+}
+  
+  /* Add a red background color to navbar links on hover */
+  .Items a:hover, .DropDownMenu:hover .DropDownButton {
+    color: #FAFAFA !important;   
+    background: #505050;
+    }
+  
+  /* Dropdown content (hidden by default) */
+  .DropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .DropDownContent a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey backgrou
+  nd color to dropdown links on hover */
+  .DropDownContent a:hover {
+    background-color:#505050;
+    color: #FAFAFA !important;
+}
+  
+  /* Show the dropdown menu on hover */
+  .DropDownMenu:hover .DropDownContent {
+    display: block
+  }
+  
+  .DropDownMenu p
+  {
+      color: #101010;
+  }
+.DropDownMenu:hover p
+{
+    color: #FAFAFA;
+}   

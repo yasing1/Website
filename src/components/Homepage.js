@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import Header from "./Header";
 import Tir from "../assets/img/tir.jpg";
 import RBCarousel from "react-bootstrap-carousel";
+import Parallax1 from './Parallax/ParallaxBG'
+import Card from './Card/Card'
 
 export default class Homepage extends Component {
     render() {
@@ -9,38 +11,20 @@ export default class Homepage extends Component {
             <div>
                 <Header />
             <div>
-                
-                <br /> <br /> <br />
-                <RBCarousel
-            >
-                <div style={{ height: 400, width: "100%" }}>
-                <img
-                  style={{justifyContent:"center", width: "100%", height: "100%" }}
-                  src={Tir}
-                />
-                <div className="carousel-caption">Slogan</div>
-              </div>
-             
-              </RBCarousel>
+                <Parallax1/>
             </div>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
-            Deneme<br/>
+            <Card 
+            header= "Who we are?"
+            text = "the best logistic company ever existed"
+            buttonText = "About"
+            />
+            <Parallax1/>
+            <Card 
+            header= "Where do we go?"
+            text = "anywhere you can imagine!"
+            buttonText = "Logistic"
+            />
+            <div style = {{height: '5000px'}}></div>
             </div>
         )
     }
